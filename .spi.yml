@@ -12,4 +12,4 @@ builder:
     - platform: ios
       documentation_targets:
       - SpeziFHIR
-      custom_documentation_parameters: [--skip-protocol-implementations]
+      # hard code via OTHER_SWIFT_FLAGS=-skip-protocol-implementations to run on iOS
